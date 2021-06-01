@@ -1,1 +1,1 @@
-# This repository contains JAVA programs made in either Eclipse or IntelliJ topicwise.
+This repository contains JAVA programs made in either Eclipse or IntelliJ topicwise.
