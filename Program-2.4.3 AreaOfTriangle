@@ -1,0 +1,15 @@
+import java.util.*;
+public class Hello{
+    public static void main(String[] args){
+        Scanner sc= new Scanner(System.in);
+
+        System.out.print("Enter breadth : ");
+        float base= sc.nextFloat();
+        System.out.print("Enter height : ");
+        float height= sc.nextFloat();
+
+
+        double area=(1.0/2.0)*base*height;
+        System.out.println("Area of triangle = "+area);
+    }
+}
