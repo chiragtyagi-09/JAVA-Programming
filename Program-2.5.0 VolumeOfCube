@@ -6,7 +6,7 @@ public class Hello{
         System.out.print("Enter edge length : ");
         float s= sc.nextFloat();
 
-        float area=s*s*s;
-        System.out.println("Volume of cube = "+area);
+        float volume=s*s*s;
+        System.out.println("Volume of cube = "+volume);
     }
 }
