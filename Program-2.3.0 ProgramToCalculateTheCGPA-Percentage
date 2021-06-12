@@ -1,0 +1,23 @@
+import java.util.*;
+public class Hello{
+    public static void main(String[] args){
+        Scanner sc= new Scanner(System.in);
+
+        System.out.print("Enter English Marks : ");
+        float eng= sc.nextFloat();
+        System.out.print("Enter Hindi Marks : ");
+        float hin= sc.nextFloat();
+        System.out.print("Enter Mathematics Marks : ");
+        float math= sc.nextFloat();
+        System.out.print("Enter Science Marks: ");
+        float sci= sc.nextFloat();
+        System.out.print("Enter Social Studies Marks : ");
+        float sst= sc.nextFloat();
+
+        double total = (eng+hin+math+sci+sst)/(5.0);
+        float cjpa = (float)(9.5*(total)) ;
+
+        System.out.println("CJPA Percentage = "+cjpa);
+
+    }
+}
