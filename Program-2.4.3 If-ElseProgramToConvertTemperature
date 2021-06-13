@@ -1,0 +1,30 @@
+import java.util.*;
+public class Hello{
+    public static void main(String[] args){
+        Scanner sc= new Scanner(System.in);
+
+        System.out.print("Enter your choice for °C to °F PRESS 1 and for °F to °C PRESS 2 : ");
+        int choice= sc.nextInt();
+
+       if (choice==1)
+       {
+           System.out.print("Enter temperature in Celsius(°C) to convert it into Fahrenheit(°F) = ");
+           float celsius=sc.nextFloat();
+           float f= ((celsius*9)/5)+32;
+           System.out.print("Converted temperature from °C into °F = "+f);
+
+       }
+        else if (choice==2)
+        {
+            System.out.print("Enter temperature in Fahrenheit(°F)  to covert it into Celsius(°C) = ");
+            float fahrenheit=sc.nextFloat();
+            float c= ((fahrenheit-32)*5)/9;
+            System.out.println("Converted temperature from °F into °C = "+c);
+        }
+        else
+        {
+            System.out.println("Wrong choice");
+        }
+
+    }
+}
