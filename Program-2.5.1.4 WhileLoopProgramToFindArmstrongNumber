@@ -1,0 +1,30 @@
+import java.util.*;
+public class Hello {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int r, sum = 0, temp;
+
+        System.out.print("Enter how many values you want to enter : ");
+        int n = sc.nextInt();
+        
+        temp = n;
+
+        while (n > 0)
+        {
+            r = n % 10;
+            sum = sum + (r * r * r);
+            n = n / 10;
+        }
+
+        if (temp == sum)
+        {
+            System.out.println("Armstrong number ");
+        }
+        else
+        {
+            System.out.println("Not an armstrong number");
+        }
+
+    }
+}
