@@ -4,7 +4,6 @@ public class Hello {
   
         Scanner sc = new Scanner(System.in);
   
-  
         System.out.print("Enter a year : ");
         int year = sc.nextInt();
 
