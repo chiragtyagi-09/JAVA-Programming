@@ -4,7 +4,7 @@ public class Hello {
         Scanner sc = new Scanner(System.in);
 
 
-        System.out.print("Enter your name : ");
+        System.out.print("Enter number : ");
         int n =sc.nextInt();
 
         int count = 0;
