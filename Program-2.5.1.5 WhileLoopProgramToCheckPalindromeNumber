@@ -20,6 +20,6 @@ public class Hello {
             System.out.print("Palindrome");
         else
             System.out.print("Not a Palindrome");
-
+     
     }
 }
